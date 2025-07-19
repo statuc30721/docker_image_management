@@ -25,7 +25,7 @@ The first section is declaring the variables for binaries that will need to be o
 There are a variety of reasons this can occur. In this intance it was because the script was trying to pull a image that was not hosted on a known repository server. The image was a custom one that I built to run jenkins.
 
 # Workflow
-Here is wherer the script creates a tenmporary working directory, creates a list of docker images on the system, pulls the version tagged as "latest" from a known repository and then deletes the working directory and files inside the working directory.
+Here is where the script creates a tenmporary working directory, creates a list of docker images on the system, pulls the version tagged as "latest" from a known repository and then deletes the working directory and files inside the working directory.
 
 # Dangling images
 This is where the script will report if you have "unused" docker objects. They call them "dangling images".
