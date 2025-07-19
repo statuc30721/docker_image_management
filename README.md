@@ -36,4 +36,6 @@ The command to prune docker images can be located on the official docker website
 
 This script just informs you if you have untagged images. 
 
-[RECOMMANDATION] If the script shows that you have untagged images, look at he 
+[RECOMMENDATION] If the script shows that you have untagged images, look at the image and determine if you dont need it. If you are running Docker desktop, you can look at the image in detail to determine if you don't need to keep it.
+
+If you find that you want to keep the image, then you should add a TAG to the image.
